@@ -23,6 +23,7 @@ h1{
     color: #E6AF2E;
 }
 .containerBoard{
+    align-content: center;
     width: 255px;
     height: auto;
     margin: auto;
@@ -46,7 +47,7 @@ h1{
 
 #restartBtn {
   
-    margin: 20px auto; 
+    margin:10px auto; 
     padding: 10px 20px;
     font-size: 16px;
     cursor: pointer;
@@ -66,14 +67,16 @@ h1{
     grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .score-container {
-    border: 1px solid #ccc;
+    width: 60px;
+    height: auto;
+    border: 1px solid #E0E2DB;
     border-radius: 8px;
-    padding: 10px 20px;
-    margin: 0 10px;
+    padding: 5px 10px;
+    margin: auto;
     text-align: center;
     background-color: #f9f9f9; 
 }

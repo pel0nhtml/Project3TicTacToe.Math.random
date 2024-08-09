@@ -48,7 +48,6 @@ function handleCellClick(event) {
       updateCounters();
       return;
     }
-
     computerMove();
   }
 }
@@ -59,7 +58,7 @@ function computerMove() {
 
   //VERIFICAR EMPATE
   if (emptyCells.length === 0) {
-    alert("¡Es un empate!");
+    alert("¡Empate!");
     draws++;
     updateCounters();
     return;
@@ -74,7 +73,7 @@ function computerMove() {
   cell.style.backgroundColor = "#39A6EF";  //COMPUTADORA//
 
   if (checkWinner("O")) {
-    alert("¡La computadora ganó!");
+    alert("¡Computadora ganó!");
     computerWins++;
     updateCounters();
   }
