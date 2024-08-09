@@ -23,8 +23,9 @@ h1{
     color: #E6AF2E;
 }
 .containerBoard{
-    size-adjust: auto;
-    align-self: center;
+    width: 255px;
+    height: auto;
+    margin: auto;
 }
 #board{
     display: grid;
@@ -44,7 +45,7 @@ h1{
 }
 
 #restartBtn {
-    display: block;
+  
     margin: 20px auto; 
     padding: 10px 20px;
     font-size: 16px;
@@ -61,7 +62,8 @@ h1{
 
 
 .scoreboard {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     margin-top: 20px;
@@ -87,3 +89,5 @@ h1{
     font-size: 20px;
     font-weight: bold;
 }
+
+
