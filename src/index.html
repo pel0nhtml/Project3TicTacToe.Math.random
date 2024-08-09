@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+       
+<div class="containerPositions"> 
+    <div class="texts">
+        <h1>Tic Tac Toe</h1>
+        <button id="restartBtn">Restart</button>
+    </div> 
+<div class="containerBoard">
+    <div class="board" id="board">
+           <div cellIndex="0" class="cell right-border bottom-border"></div>
+           <div cellIndex="1" class="cell right-border bottom-border"></div> 
+           <div cellIndex="2" class="cell bottom-border"></div> 
+           <div cellIndex="3" class="cell right-border bottom-border"></div> 
+           <div cellIndex="4" class="cell right-border bottom-border"></div> 
+           <div cellIndex="5" class="cell bottom-border"></div> 
+           <div cellIndex="6" class="cell right-border"></div> 
+           <div cellIndex="7" class="cell right-border"></div> 
+           <div cellIndex="8" class="cell"></div> 
+        </div>
+</div>
+    
+            <div class="scoreboard">
+                <div class="score-container">
+                    <p>Victories:</p>
+                    <div id="playerWins">0</div>
+                </div>
+                <div class="score-container">
+                    <p>Defeates:</p>
+                    <div id="computerWins">0</div>
+                </div>
+                <div class="score-container">
+                    <p>Draws:</p>
+                    <div id="draws">0</div>
+                </div>
+            </div>
+        
+</div>
+<script src="script.js"></script>
+</body>
+</html>
